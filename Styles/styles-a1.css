@@ -1,0 +1,303 @@
+/* Backup Style Configs. */
+
+    /*
+    display: table;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+    */
+
+/* Overall CSS Styling*/
+
+h1, h2, h3, h4, h5, 
+h6 {
+    color: whitesmoke;
+    font-family: Arial;
+    font-size:large;
+}
+
+p {
+    color: whitesmoke;
+    font-family: Arial;
+    font-size: medium;
+    letter-spacing: normal;
+    line-height: 0.75cm;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gold;
+}
+
+tr {
+    border-color: white;
+}
+
+header {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.break {
+    background-color: gold;
+    opacity: 90%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Backgrounds */
+
+.home-bg {
+    background-image: url(../Images/background-img.jpeg);
+    background-repeat:space;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.personalinfo-bg {
+    background-image: url(../Images/background-img.jpeg);
+    background-repeat: no-repeat;
+    background-position: center left fixed;
+    background-size: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+}
+
+.idealjob-bg {
+    background-image: url(../Images/background-img.jpeg);
+    background-repeat: no-repeat;
+    background-position: center fixed;
+    background-size: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+
+}
+
+.personalprofile-bg {
+    background-image: url(../Images/background-img.jpeg);
+    background-repeat: no-repeat;
+    background-position: center right fixed;
+    background-size: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+}
+
+.projectidea-bg {
+    background-image: url(../Images/background-img.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center bottom fixed;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+}
+
+/* Footer */
+
+footer {
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/* Navigation Bar - Header */
+
+.navbar-header {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 15px;
+    font-style: italic;
+	text-align: left;	
+    overflow: auto;
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+
+}
+
+.navbar-header a {
+    float: center;
+    text-decoration: none;
+}
+
+.navbar-header a:active {
+    background-color: antiquewhite;
+}
+
+/* Navigation Bar - Footer */
+
+.buttonnavbar-footer {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 5px;    
+    width: 100%;
+}
+
+.buttonnavbar-footer a {
+    float: center;
+    padding: 10px;
+}
+
+.buttonnavbar-footer a:active {
+    background-color: antiquewhite;
+}
+
+/* Home */
+
+.home-content {
+    padding: 175px;
+    padding-bottom: 75px;
+    text-align: center;
+
+}
+
+#playbargif-home {
+    position: inherit;
+    top: 0px;
+}
+
+.home-image {
+    padding-top: 20px;
+    position: relative;
+}
+
+.homenavbar-footer a {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    float: center;
+    padding: 10px;
+}
+
+.homenavbar-footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#home-title-1 {
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#home-title-2 {
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#home-title-3 {
+    font-family: Arial;
+    font-weight: normal;
+}
+
+#home-title-4 {
+    font-family: Arial;
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Personal Info */
+
+.personalinfo-subheader {
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 755px;
+}
+
+.personalinfo-subheader h1 {
+    font-size: 50px;
+    color: white;
+}
+
+/*
+.personalinfo-header img {
+    position: absolute;
+    left: 0px;
+}
+*/
+
+.personalinfo-information  {
+    display: table;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.personalinfo-interest {
+    display: table;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hspaydelimg-personalinfo {
+    position: absolute;
+    right: 300px;
+    top: 175px;
+}
+
+
+
+/* Ideal Job */
+
+.idealjob-subheader {
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 755px;
+}
+
+.idealjob-subheader h1 {
+    font-size: 50px;
+    color: white;
+}
+
+/* Personal Profile */
+
+.personalprofile-subheader {
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 755px;
+}
+
+.personalprofile-subheader h1 {
+    font-size: 50px;
+    color: white;
+}
+
+/* Project Idea */
+
+.projectidea-subheader {
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 755px;
+}
+
+.projectidea-subheader h1 {
+    font-size: 50px;
+    color: white;
+}
