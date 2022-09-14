@@ -7,6 +7,21 @@
     text-align: left;
     */
 
+/* Test Space */
+
+    /*
+
+    */
+
+/* Delete comment syntax to reveal borders */
+/*
+table td {
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+}
+*/
+
 /* Overall CSS Styling*/
 
 h1, h2, h3, h4, h5, 
@@ -116,7 +131,7 @@ footer {
 
 }
 
-#playbargif-home {
+#discoball-home {
     position: inherit;
     top: 0px;
 }
@@ -178,39 +193,28 @@ footer {
     color: white;
 }
 
-/*
-.personalinfo-header img {
-    position: absolute;
-    left: 0px;
-}
-*/
-
-.personalinfo-information  {
-    display: table;
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: left;
+.personalinfo-information table td {
+    display: table-cell;
+    width: 100%;
+    align-content: left;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-right:100px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+#personalinfotable-data {
+    width: 50%;
 }
 
 .personalinfo-interest {
-    display: table;
+    display: block;
     margin-left: 100px;
     margin-right: 100px;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
-.hspaydelimg-personalinfo {
-    position: absolute;
-    right: 300px;
-    top: 175px;
-}
-
-
 
 /* Ideal Job */
 
@@ -227,9 +231,32 @@ footer {
     color: white;
 }
 
-/* Personal Profile */
+.idealjob-brief {
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
-.personalprofile-header {
+.idealjob-brief p {
+    font-size: large;
+    font-weight: normal;
+}
+
+.idealjob-information {
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Personality Profile */
+
+.personalityprofile-header {
     text-align: left;
     text-transform: uppercase;
     padding-top: 20px;
@@ -237,9 +264,65 @@ footer {
     padding-right: 755px;
 }
 
-.personalprofile-header h1 {
+.personalityprofile-header h1 {
     font-size: 50px;
     color: white;
+}
+
+#personality-links {
+    text-align: center;
+    font-size: 70px;
+    font-style: italic;
+    padding-top: 50px;
+}
+
+#infp-1 {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#infp-2 {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.infp-info {
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.vark-img {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.vark-info {
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /* Project Idea */
@@ -253,6 +336,21 @@ footer {
 }
 
 .projectidea-header h1 {
+    font-size: 50px;
+    color: white;
+}
+
+/* References */
+
+.references-header {
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 755px;
+}
+
+.references-header h1 {
     font-size: 50px;
     color: white;
 }
