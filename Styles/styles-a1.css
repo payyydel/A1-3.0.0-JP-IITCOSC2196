@@ -31,7 +31,8 @@ h6 {
     font-size:large;
 }
 
-p {
+p, 
+li {
     color: whitesmoke;
     font-family: Arial;
     font-size: medium;
@@ -195,22 +196,24 @@ footer {
 
 .personalinfo-information table td {
     display: table-cell;
-    width: 100%;
+    width: auto;
     align-content: left;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
+/*
 #personalinfotable-data {
     width: 50%;
 }
+*/
 
 .personalinfo-interest {
     display: block;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -231,10 +234,11 @@ footer {
     color: white;
 }
 
-.idealjob-brief {
+.idealjob-brief, 
+.idealjob-information {
     display: block;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -245,14 +249,6 @@ footer {
     font-weight: normal;
 }
 
-.idealjob-information {
-    display: block;
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
 
 /* Personality Profile */
 
@@ -307,7 +303,7 @@ footer {
     padding-bottom: 50px;
 }
 
-.vark-img {
+.vark-1 {
     height: 200px;
     display: flex;
     align-items: center;
@@ -338,6 +334,26 @@ footer {
 .projectidea-header h1 {
     font-size: 50px;
     color: white;
+}
+
+.projectidea-overview, .projectidea-motivation, .projectidea-description, .projectidea-toolsNtech, .projectidea-skills,
+.projectidea-outcome {
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#pidescription-list, 
+#pitoolsNtech-list {
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 /* References */
