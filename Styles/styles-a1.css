@@ -1,27 +1,3 @@
-/* Backup Style Configs. */
-
-    /*
-    display: table;
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: left;
-    */
-
-/* Test Space */
-
-    /*
-
-    */
-
-/* Delete comment syntax to reveal borders */
-/*
-table td {
-    border-width: 5px;
-    border-style: solid;
-    border-color: white;
-}
-*/
-
 /* Overall CSS Styling*/
 
 h1, h2, h3, h4, h5, 
@@ -204,19 +180,48 @@ footer {
     padding-right: 200px;
 }
 
-/*
-#personalinfotable-data {
-    width: 50%;
-}
-*/
+.personalinfo-bio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 
-.personalinfo-interest {
-    display: block;
+    text-align: center;
     margin-left: 200px;
     margin-right: 200px;
-    text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.personalinfo-interest {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media all and (max-width: 800px) {
+    .personalinfo-information,
+    .personalinfo-information 
+    
+    {
+        justify-content: space-evenly;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .personalinfo-information,
+    .personalinfo-information 
+    
+    {
+        flex-direction: column;
+    }
 }
 
 /* Ideal Job */
@@ -234,21 +239,55 @@ footer {
     color: white;
 }
 
-.idealjob-brief, 
-.idealjob-information {
-    display: block;
+.idealjob-brief {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    font-style: italic;
+    font-weight:lighter;
+
+
+    text-align: center;
     margin-left: 200px;
     margin-right: 200px;
-    text-align: center;
     padding-top: 50px;
+    padding-bottom: 5px;
+}
+
+.idealjob-img-link {
+    object-position: center;
+    text-align: center;
     padding-bottom: 50px;
 }
 
-.idealjob-brief p {
+.idealjob-img-link p {
     font-size: large;
     font-weight: normal;
 }
 
+#idealjob-img {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#idealjob-link {
+    padding-top: 25px;
+}
+
+.idealjob-information {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 /* Personality Profile */
 
@@ -267,7 +306,6 @@ footer {
 
 #personality-links {
     text-align: center;
-    font-size: 70px;
     font-style: italic;
     padding-top: 50px;
 }
@@ -295,15 +333,19 @@ footer {
 }
 
 .infp-info {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    text-align: center;
     margin-left: 200px;
     margin-right: 200px;
-    text-align: center;
     padding-top: 25px;
     padding-bottom: 50px;
 }
 
-.vark-1 {
+#vark-1 {
     height: 200px;
     display: flex;
     align-items: center;
@@ -313,12 +355,61 @@ footer {
 }
 
 .vark-info {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    text-align: center;
     margin-left: 200px;
     margin-right: 200px;
-    text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+#deductive-1 {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#inductive-2 {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.iNdreasoning-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+@media all and (max-width: 800px) {
+    .personalitylinks, .infp-info, #infp-1, #infp-2, #vark-1, .vark-info #deductive-1, #inductive-2 
+    .iNdreasoning-info {
+        justify-content: space-evenly;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .personalitylinks, .infp-info, #infp-1, #infp-2, #vark-1, .vark-info #deductive-1, #inductive-2, 
+    .iNdreasoning-info {
+        flex-direction: column;
+    }
 }
 
 /* Project Idea */
@@ -338,20 +429,27 @@ footer {
 
 .projectidea-overview, .projectidea-motivation, .projectidea-description, .projectidea-toolsNtech, .projectidea-skills,
 .projectidea-outcome {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    text-align: center;
     margin-left: 200px;
     margin-right: 200px;
-    text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-#pidescription-list, 
-#pitoolsNtech-list {
-    display: block;
+#pi-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    text-align: left;
     margin-left: 50px;
     margin-right: 50px;
-    text-align: left;
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -369,4 +467,34 @@ footer {
 .references-header h1 {
     font-size: 50px;
     color: white;
+}
+
+.references-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#referencesinfo-header {
+    font-size: 25px;
+}
+
+#references-id {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
