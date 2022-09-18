@@ -1,4 +1,4 @@
-/* Overall CSS Styling*/
+/* Overall CSS Styling */
 
 h1, h2, h3, h4, h5, 
 h6 {
@@ -41,7 +41,7 @@ header {
     margin-right: 50px;
 }
 
-/* Background Image*/
+/* Background Image */
 
 .bg {
         background: url(../Images/background-img.jpeg) no-repeat center center fixed; 
@@ -50,6 +50,8 @@ header {
         -o-background-size: cover;
         background-size: cover;
       }
+
+/* IMAGE SOURCE: https://unsplash.com/photos/Wft1QrsY-8g */
 
 /* Footer */
 
